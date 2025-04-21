@@ -10,7 +10,7 @@
 double Cylinder :: SurfaceArea()
 { 
   double ans;	
-  ans = M_PI * radius * radius * 2 + M_PI * 2 * height*radius ;	  
+  ans = M_PI * radius * radius * 2 + M_PI * 2 * height*radius ;//  
   return ans;
 }
 
